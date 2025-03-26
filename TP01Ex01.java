@@ -13,7 +13,7 @@ public class TP01Ex01 {
 		System.out.println("Digite o valor da altura: ");
 		int altura = scanner.nextInt();
 		
-		int area = (base * altura) / 2;//Calcula a area do retangulo
+		int area = base * altura;//Calcula a area do retangulo
 		
 		System.out.println("A area do seu retângulo é: " + area);			
 		
